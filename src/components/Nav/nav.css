@@ -1,0 +1,47 @@
+.mainNav,
+.rightNav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mainNav {
+	background-color: #db0b5f;
+	color: white;
+	letter-spacing: 1px;
+	padding: 1.5rem 2rem;
+	box-shadow: 0 2px 5px 2px #ca0f5a;
+	flex-wrap: wrap;
+}
+
+li {
+	list-style: none;
+	margin: 0 0.5rem;
+}
+
+.rightNav li a,
+.leftNav a {
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	padding: 0 0.1rem 0.1rem;
+}
+.leftNav a {
+	cursor: default;
+}
+.rightNav li a:hover {
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px solid white;
+}
+
+@media (max-width: 363px) {
+	.mainNav {
+		flex-direction: column;
+		padding: 0.8rem 0;
+	}
+	.rightNav {
+		margin: 0.8rem auto 0;
+		gap: 1rem;
+	}
+}

@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+body {
+	background: linear-gradient(#db0b5f, #6f00ed) no-repeat center center fixed;
+	text-align: left;
+	text-transform: capitalize;
+	font-family: "Open Sans", serif, sans-serif;
+	color: white;
+	letter-spacing: 0.5px;
+}
+
+@media (min-width: 700px) {
+	.searchBox input[type="text"] {
+		font-size: 1.2rem;
+	}
+	.mainNav {
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width: 700px) {
+	body {
+		font-size: 0.8rem;
+	}
+	.searchBox input[type="text"] {
+		font-size: 1.2rem;
+	}
+	.countires-container {
+		font-size: 10px;
+	}
+	.mainNav {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 450px) {
+	body {
+		font-size: 0.8rem;
+	}
+	.countires-container {
+		font-size: 8px;
+	}
+	.searchBox input[type="text"] {
+		font-size: 1rem;
+	}
+	.countryDetail img {
+		width: 0.2rem;
+	}
+	.mainNav {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 350px) {
+	.countires-container {
+		font-size: 7px;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+}
+@media (max-width: 300px) {
+	.countires-container {
+		font-size: 7px;
+	}
+	h1 {
+		font-size: 1.3rem;
+	}
+}

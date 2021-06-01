@@ -1,0 +1,17 @@
+.countires-container {
+	max-width: 54rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 2rem 0;
+	margin: 1rem auto;
+}
+
+.countires-container div {
+	background-color: rebeccapurple;
+	padding-bottom: 1rem;
+}
+
+.headerComponent {
+	padding: 2rem 0;
+}

@@ -1,0 +1,32 @@
+.countryDetail,
+.parentCard {
+	max-width: 1050px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: auto;
+	padding: 2rem 0;
+}
+
+.countryDetail {
+	gap: 1rem;
+}
+
+.parentCard {
+	gap: 0.8rem;
+}
+
+.countryDetail img {
+	width: 2rem;
+}
+
+.countryDetail h2 {
+	padding: 0 1rem;
+}
+
+@media (max-width: 450px) {
+	.countryDetail img {
+		width: 1.5rem;
+	}
+}
