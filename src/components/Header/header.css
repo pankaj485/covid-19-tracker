@@ -11,13 +11,13 @@
 
 .totalCases {
 	max-width: 1050px;
-	margin: auto;
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
-	gap: 1rem;
-	padding: 3rem 0;
+	margin: auto;
+	padding: 2rem 0;
+	gap: 0.8rem;
 }
 
 .searchBox {
