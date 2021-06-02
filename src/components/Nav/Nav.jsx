@@ -13,7 +13,7 @@ const Nav = () => {
 							<a href="https://disease.sh/v3/covid-19/countries"> API </a>
 						</li>
 						<li>
-							<a href="https://github.com/pankaj485"> Github </a>
+							<a href="https://github.com/pankaj485/covid-19-tracker"> Github </a>
 						</li>
 					</ul>
 				</div>
