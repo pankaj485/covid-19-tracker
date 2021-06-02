@@ -7,8 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
 body {
-	/* background: linear-gradient(#db0b5f, #6f00ed) no-repeat center center fixed; */
-	background: linear-gradient(#db0b5f, #6f00ed) fixed;
+	background: linear-gradient(#db0b5f, #6f00ed) no-repeat;
 	text-align: left;
 	text-transform: capitalize;
 	font-family: "Open Sans", serif, sans-serif;
