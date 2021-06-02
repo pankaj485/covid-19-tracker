@@ -16,17 +16,24 @@
 .parentCard {
 	gap: 0.8rem;
 }
-
-.countryDetail img {
-	width: 2rem;
-}
-
 .countryDetail h2 {
 	padding: 0 1rem;
 }
 
-@media (max-width: 450px) {
-	.countryDetail img {
-		width: 1.5rem;
+.countryDetail div {
+	display: flex;
+	font-size: inherit;
+	align-items: center;
+	padding: 0 0.5rem;
+}
+
+.countryDetail img {
+	width: 3rem;
+}
+
+@media (max-width: 850px) {
+	.countryDetail {
+		flex-direction: column;
+		gap: 0.5rem;
 	}
 }

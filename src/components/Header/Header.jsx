@@ -29,15 +29,28 @@ const Header = () => {
 		getData();
 	}, []);
 
-	const formatInput = (string) => {
-		return string.charAt(0).toUpperCase() + string.slice(1);
+	const formatInputCaptialize = (string) => {
+		let splitString = string.toLowerCase().split(" ");
+		for (let i = 0; i < splitString.length; i++) {
+			splitString[i] = splitString[i].charAt(0).toUpperCase() + splitString[i].substring(1);
+		}
+		return splitString.join(" ");
+	};
+
+	const formatInputUppercase = (string) => {
+		return string.toUpperCase();
 	};
 
 	const handleChange = (event, input) => {
 		event.preventDefault();
-		const formattedInput = formatInput(input.toLowerCase());
+		const formattedInputCapitalize = formatInputCaptialize(input);
+		const formattedInputUppercase = formatInputUppercase(input.toUpperCase());
+
 		const filterCountry = countryData.filter((element) => {
-			return element.country === formattedInput ? element.country : null;
+			return element.country === formattedInputCapitalize ||
+				element.country === formattedInputUppercase
+				? element.country
+				: null;
 		});
 		filterCountry.length > 0 && setFoundCountry(filterCountry[0]);
 		setInputValue("");

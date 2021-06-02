@@ -5,6 +5,7 @@ const Card = ({ fileredCountryInfo }) => {
 	const {
 		country,
 		countryInfo,
+		continent,
 		population,
 		cases,
 		todayCases,
@@ -17,8 +18,11 @@ const Card = ({ fileredCountryInfo }) => {
 	return (
 		<>
 			<div className="countryDetail">
-				<h2> country : {country} </h2>
-				<img src={countryInfo.flag} alt="" />
+				<div>
+					<h2> country : {country} </h2>
+					<img src={countryInfo.flag} alt="" />
+				</div>
+				<h2> continent : {continent} </h2>
 				<h2> population : {new Intl.NumberFormat().format(population)} </h2>
 			</div>
 
