@@ -1,5 +1,7 @@
 "# covid-19-tracker" 
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fpankaj485%2Fcovid-19-tracker&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 This is a simple react app for covid-19.
 I have used disease.sh API with React.js
 There are majorly 3 sections of this app 
