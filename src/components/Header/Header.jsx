@@ -65,6 +65,9 @@ const Header = () => {
 						onChange={(e) => {
 							setInputValue(e.target.value);
 						}}
+						onKeyDown={(event) => {
+							event.keyCode === 13 && handleChange(event, inputValue);
+						}}
 						placeholder="country name"
 						value={inputValue}
 					/>
