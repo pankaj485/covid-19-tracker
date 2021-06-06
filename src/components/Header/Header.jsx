@@ -66,6 +66,8 @@ const Header = () => {
 							setInputValue(e.target.value);
 						}}
 						onKeyDown={(event) => {
+							// filters the input acc to the key pressed and triggers the icon click on pressing enter
+
 							event.keyCode === 13 && handleChange(event, inputValue);
 						}}
 						placeholder="country name"

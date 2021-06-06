@@ -39,6 +39,7 @@
 
 .searchBox-input ::placeholder {
 	color: rgb(255, 255, 255, 0.6);
+	text-transform: lowercase;
 }
 .searchBox input[type="text"] {
 	color: white;
@@ -50,6 +51,7 @@
 	padding: 0.4rem 1rem;
 	border: 2px white solid;
 	border-radius: 5px;
+	text-transform: capitalize;
 }
 
 .searchBox-input img {
