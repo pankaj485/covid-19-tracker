@@ -8,16 +8,24 @@ const Footer = () => {
 	return (
 		<footer className="footerContainer">
 			<div className="social-medias">
-				<a href="https://www.instagram.com/pankaj_thapaliya/" target="_blank">
+				<a href="https://www.instagram.com/pankaj_thapaliya/" rel="noreferrer" target="_blank">
 					<img src={instagram} alt="icon" />
 				</a>
-				<a href="https://www.facebook.com/profile.php?id=100008397213095" target="_blank">
+				<a
+					href="https://www.facebook.com/profile.php?id=100008397213095"
+					rel="noreferrer"
+					target="_blank"
+				>
 					<img src={facebook} alt="icon" />
 				</a>
-				<a href="https://www.linkedin.com/in/pankaj-thapaliya-791ba2108/" target="_blank">
+				<a
+					href="https://www.linkedin.com/in/pankaj-thapaliya-791ba2108/"
+					rel="noreferrer"
+					target="_blank"
+				>
 					<img src={likedin} alt="icon" />
 				</a>
-				<a href="https://github.com/pankaj485" target="_blank">
+				<a href="https://github.com/pankaj485" rel="noreferrer" target="_blank">
 					<img src={github} alt="icon" />
 				</a>
 			</div>

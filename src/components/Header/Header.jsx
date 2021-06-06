@@ -43,9 +43,8 @@ const Header = () => {
 
 	const handleChange = (event, input) => {
 		event.preventDefault();
-		const formattedInputCapitalize = formatInputCaptialize(input);
-		const formattedInputUppercase = formatInputUppercase(input.toUpperCase());
-
+		const formattedInputCapitalize = formatInputCaptialize(input).trim();
+		const formattedInputUppercase = formatInputUppercase(input.toUpperCase()).trim();
 		const filterCountry = countryData.filter((element) => {
 			return element.country === formattedInputCapitalize ||
 				element.country === formattedInputUppercase

@@ -34,6 +34,11 @@
 	gap: 1rem;
 	margin: 2rem auto 0;
 	padding: 0 0.5rem;
+	color: green;
+}
+
+.searchBox-input ::placeholder {
+	color: rgb(255, 255, 255, 0.6);
 }
 .searchBox input[type="text"] {
 	color: white;
