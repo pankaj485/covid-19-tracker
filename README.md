@@ -9,7 +9,7 @@ There are majorly 3 sections of this app
 2) Show global stats 
 3) Show most affected countries list 
 
-Vist site here : https://covid-tracker-pank.netlify.app/
+Vist site [here](https://covid-tracker-pank.netlify.app/)
 
 
 Desktop views 
